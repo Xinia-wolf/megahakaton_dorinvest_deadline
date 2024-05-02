@@ -1,0 +1,47 @@
+@font-face {
+  src: url("../../../../fonts/Roboto-Regular.ttf");
+  font-family: "Roboto Regular";
+}
+
+@font-face {
+  src: url("../../../../fonts/alethiapro-italic.otf");
+  font-family: "Alethia Pro Italic";
+}
+
+.completedExhibition {
+  margin-top: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.completedTextContainer {
+  width: 52.4%;
+}
+
+.completedHeader {
+  font-family: "Alethia Pro Italic";
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 300;
+  color: #207b44;
+  margin-top: 0;
+  margin-bottom: 39px;
+}
+
+.completedText {
+  font-family: "Roboto Regular";
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 70px;
+}
+
+.completedPast {
+  font-family: "Alethia Pro Italic";
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 300;
+  margin-top: 150.37px;
+  margin-bottom: 80px;
+}

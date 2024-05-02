@@ -1,0 +1,28 @@
+.FAQPage {
+  padding: 0 11% 0 11%;
+  margin-top: 78px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 123px;
+  min-height: 500px;
+  flex-wrap: wrap;
+}
+
+.qCard {
+  width: 37%;
+  margin-bottom: 40px;
+}
+
+.question {
+  height: 127px;
+  background-color: transparent;
+  border-radius: 16px;
+  border: 2px solid black;
+  padding: 36px 49px 36px 49px;
+  box-sizing: border-box;
+}
+
+.answer {
+  background-color: white;
+  padding: 16px 54px 30.5px 44px;
+}

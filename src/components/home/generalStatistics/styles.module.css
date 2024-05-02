@@ -1,0 +1,42 @@
+@font-face {
+  src: url("../../../fonts/Roboto-Regular.ttf");
+  font-family: "Roboto Regular";
+}
+
+@font-face {
+  src: url("../../../fonts/alethiapro-italic.otf");
+  font-family: "Alethia Pro Italic";
+}
+
+.generalStatsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.statsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 17.9%);
+    grid-gap: 13.4%;
+    padding-left: 13.4%;
+}
+
+.parameter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.statsNumber {
+    font-family: "Alethia Pro Italic", Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    color: #207B44;
+}
+
+.statsText {
+    font-family: "Roboto Regular", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+}

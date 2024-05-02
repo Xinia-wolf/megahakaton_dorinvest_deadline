@@ -1,0 +1,34 @@
+@font-face {
+  src: url("../../../fonts/alethiapro-italic.otf");
+  font-family: "Alethia Pro Italic";
+}
+
+.partnersContainer {
+  padding: 0 11% 0 11%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partnersHeader {
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-family: "Alethia Pro Italic";
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.logosContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.partnerLink {
+  width: 12.4%;
+}
+
+.logo {
+  width: 100%;
+}

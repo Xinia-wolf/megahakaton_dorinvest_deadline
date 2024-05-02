@@ -1,0 +1,133 @@
+@font-face {
+  src: url("../../fonts/Roboto-Regular.ttf");
+  font-family: "Roboto Regular";
+}
+
+.header_container {
+  display: flex;
+  padding: 83.71px 11% 0 11%;
+  justify-content: space-between;
+  height: 77px;
+  align-items: center;
+}
+
+.logoButton {
+  height: 36px;
+  border: none;
+  background-color: transparent;
+}
+
+.logoImg {
+  height: 100%;
+  width: auto;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.desktop_nav {
+  width: 50%;
+}
+
+.navBar_contacts {
+  position: relative;
+  font-family: "Roboto Regular", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.desktop_nav .menus {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.desktop_nav .menu_items {
+  position: relative;
+  font-family: "Roboto Regular", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.desktop_nav .menu_items a {
+  text-decoration: none;
+  color: black;
+}
+
+.arrowDown {
+  width: 14.5px;
+  height: 6px;
+  margin-left: 10.5px;
+}
+
+.desktop_nav .menu_items button {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  font-size: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+}
+
+.desktop_nav .dropdown {
+  position: absolute;
+  right: 0;
+  left: auto;
+  font-size: 18px;
+  z-index: 9999;
+  width: 130px;
+  height: 200px;
+  padding: 20px 16px;
+  list-style: none;
+  background-color: #fffaf4;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  display: none;
+  text-align: center;
+}
+
+.desktop_nav .dropdown.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.closeButton {
+  width: 22.66px;
+  height: 19.53px;
+  padding: 0 0 0 54px;
+  margin-bottom: 19.47px;
+}
+
+.closeButtonImg {
+  width: 22.66px;
+  height: 19.53px;
+}
+
+.dropdown .menu_items {
+  margin-bottom: 19px;
+}
+
+.backButton {
+  background-color: transparent;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.backIcon {
+  height: 100%;
+}
+
+.homePage {
+  font-family: "Roboto Regular";
+  font-size: 24px;
+  line-height: 54px;
+  margin-left: 36.09px;
+}

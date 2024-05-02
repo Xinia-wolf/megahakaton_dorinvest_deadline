@@ -1,0 +1,108 @@
+@font-face {
+  src: url("../../../fonts/Roboto-Regular.ttf");
+  font-family: "Roboto Regular";
+}
+
+@font-face {
+  src: url("../../../fonts/alethiapro-italic.otf");
+  font-family: "Alethia Pro Italic";
+}
+
+.feedbackForm_container {
+  padding: 0 11% 0 11%;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 200px;
+}
+
+.imageCat {
+  width: 30.6%;
+  position: absolute;
+  left: 11%;
+  bottom: 0;
+}
+
+.imageBall {
+    width: 11%;
+    position: absolute;
+    bottom: 0;
+    left: 36.1%;
+}
+
+.imageCaption {
+  position: absolute;
+  width: 22.4%;
+  top: 30px;
+  left: 19%;
+  font-family: "Roboto Regular";
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.formContainer {
+  width: 45.2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.formHeader {
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-family: "Alethia Pro Italic";
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 300;
+}
+
+.feedbackForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput {
+    width: 100%;
+    height: 68px;
+    border-radius: 24px;
+    background-color: transparent;
+    border: solid black 1px;
+    padding-left: 33px;
+    font-family: "Roboto Regular";
+    font-size: 24px;
+    color: #555555;
+    margin-bottom: 24px;
+}
+
+.formTextarea {
+    width: 100%;
+    height: 160px;
+    border-radius: 24px;
+    background-color: transparent;
+    border: solid black 1px;
+    padding-left: 33px;
+    padding-top: 20px;
+    font-family: "Roboto Regular";
+    font-size: 24px;
+    color: #555555;
+    margin-bottom: 60px;
+}
+
+.submitButton {
+    width: 110%;
+    height: 77px;
+    border-radius: 24px;
+    background-color: #FFE5D3;
+    border: none;
+    font-family: "Roboto Regular";
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.submitButton:hover {
+    background-color: #FB8433;
+    color: black;
+}

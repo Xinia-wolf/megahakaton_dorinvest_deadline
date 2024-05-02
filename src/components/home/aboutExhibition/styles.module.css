@@ -1,0 +1,35 @@
+@font-face {
+  src: url("../../../fonts/Roboto-Regular.ttf");
+  font-family: "Roboto Regular";
+}
+
+@font-face {
+  src: url("../../../fonts/alethiapro-italic.otf");
+  font-family: "Alethia Pro Italic";
+}
+
+.aboutExhibitionContainer {
+  padding: 0% 11% 0 11%;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutExhibition {
+  margin-bottom: 80px;
+  width: 56.25%;
+}
+
+.aboutHeader {
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-family: "Alethia Pro Italic", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.aboutText {
+  margin: 0;
+  font-family: "Roboto Regular", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+}
