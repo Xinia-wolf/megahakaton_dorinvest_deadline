@@ -1,1 +1,3 @@
-# HakatonDorinvestFront
+The front-end part of the project that won the mega-hackathon for landing pages in 2024. The site is intended to contain information about exhibitions of shelter pets. Rest API requests allow you to receive up-to-date information from the server about the status of the exhibition (active/completed), the main page image, the location and time of the exhibition, animals participating in the event, etc.
+
+The site contains separate pages dedicated to cats and dogs - participants of the event, a page with past exhibitions and photographs. In addition, the site provides information about current exhibition partners, the opportunity to post answers to frequently asked questions, as well as a feedback form.
